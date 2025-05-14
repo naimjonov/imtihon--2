@@ -1,0 +1,18 @@
+@import "./vendors/normalize.scss";
+@import "./utils/functions";
+@import "./utils/mixins";
+@import "./utils/variables";
+@import "./themes/theme";
+@import "./pages/contact";
+@import "./pages/home";
+@import "./layout/footer";
+@import "./layout/forms";
+@import "./layout/header";
+@import "./components/buttons";
+@import "./components/carousel";
+@import "./base/reset";
+@import "./base/typography";
+
+body {
+    background-color: black;
+}
