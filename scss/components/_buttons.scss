@@ -1,0 +1,18 @@
+.btn {
+    padding-top: 1.6rem;
+    padding-bottom: 1.5rem;
+    padding-left: 3.2rem;
+    padding-right: 3rem;
+    border-radius: 2.8rem;
+}
+
+.button-1 {
+    color: #24303E;
+    background-color: #FFFFFF;
+
+    &:hover {
+        opacity: 0.3;
+        color: #FFFFFF;
+    }
+
+}

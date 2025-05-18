@@ -1,0 +1,613 @@
+.header {
+    background-image: url(../images/desktop/image-header.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+
+}
+
+.header__nav {
+    display: flex;
+    align-items: center;
+    padding-top: 3.4rem;
+}
+
+.nav__link {
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 2.5rem;
+    color: #FFFFFF;
+}
+
+.nav__img {
+    width: 170px;
+    height: 33px;
+
+}
+
+.header__nav__list {}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+    gap: 4.7rem;
+    margin-left: 71.5rem;
+}
+
+#mobilenav {
+    display: none;
+}
+
+
+.nav__button {
+    margin-left: 4.7rem;
+    font-family: Fraunces 9pt Soft;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+
+}
+
+.nav__burger {
+    display: none;
+}
+
+.header__tilte {
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 56px;
+    line-height: 100%;
+    letter-spacing: 8.75px;
+    text-align: center;
+    margin-top: 10.5rem;
+
+}
+
+.icon-arrow {
+    margin-left: 73.5rem;
+    margin-top: 10rem;
+}
+
+
+.main {}
+
+.main__cart {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+//main cart 1
+
+.main__cart1 {}
+
+.main__cart__content {
+    width: 455px;
+    height: 285px;
+    margin-left: 16.5rem;
+}
+
+.main__cart__content__title {
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 100%;
+    color: #24303E;
+    margin-bottom: 3.2rem;
+
+}
+
+.main__cart__content__description {
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #808397;
+    margin-bottom: 4rem;
+
+
+}
+
+.main__cart__content__link {
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 25px;
+    color: #24303E;
+
+}
+
+.main__cart1__img {
+    width: 765px;
+    height: 600px;
+}
+
+//main cart 2
+
+.main__cart2 {
+    display: flex;
+    align-items: center;
+}
+
+.main__cart2__img {
+    width: 755px;
+    height: 600px;
+
+}
+
+.main__cart2_2 {
+    width: 445px;
+    height: 286px;
+    margin-left: 11rem;
+}
+
+.main__cart2__content__title {
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 4rem;
+    line-height: 100%;
+    color: #24303E;
+    margin-bottom: 3.2rem;
+
+}
+
+.main__cart2__content__description {
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    color: #808397;
+    margin-bottom: 4rem;
+
+
+}
+
+.btn {
+    display: none;
+}
+
+.main__cart2__content__link {
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 15px;
+    line-height: 25px;
+    color: #24303E;
+
+}
+
+.main__cart3 {
+    display: flex;
+    align-items: center;
+}
+
+//main cart 3
+
+.main__cart3_3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 755px;
+    height: 600px;
+    background-image: url(../images/desktop/image-graphic-design.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.main__cart3__content {
+    width: 339px;
+    height: 143px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 55.8rem;
+}
+
+.main__cart3__title {
+    margin-bottom: 2.7rem;
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 2.8rem;
+    line-height: 100%;
+    color: #24554A;
+
+}
+
+.main__cart3__description {
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    color: #24554A;
+
+}
+
+//main acrt 4
+
+.main__cart4_4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 762px;
+    height: 600px;
+    background-image: url(../images/desktop/image-photography.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+}
+
+.main__cart4__content {
+    width: 339px;
+    height: 143px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-top: 55.8rem;
+}
+
+.main__cart4__title {
+    margin-bottom: 2.7rem;
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 2.8rem;
+    line-height: 100%;
+    color: #052C3B;
+
+}
+
+.main__cart4__description {
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 27px;
+    color: #19536C;
+
+}
+
+.main__hero {
+    margin-top: 16rem;
+    margin-bottom: 16rem;
+    margin-left: 19.5rem;
+    color: #052C3B;
+
+}
+
+.main__hero__content {
+    display: flex;
+    align-items: center;
+    gap: 3rem;
+}
+
+.main__hero__title {
+    font-family: Fraunces;
+    font-weight: 900;
+    font-size: 2rem;
+    line-height: 100%;
+    text-align: center;
+    color: #A7AAAD;
+    margin-left: -210px;
+    margin-bottom: 8.1rem;
+
+}
+
+.main__hero__cart {
+    width: 350px;
+}
+
+.main__hero__images {
+    width: 72px;
+    height: 72px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 5.8rem;
+}
+
+.main__hero__description {
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    text-align: center;
+    color: #5B636D;
+    margin-bottom: 6.9rem;
+
+}
+
+.main__hero__name {
+    font-family: Fraunces 9pt Soft;
+    font-weight: 900;
+    font-size: 1.8rem;
+    line-height: 100%;
+    text-align: center;
+    color: #24303E;
+    margin-bottom: 0.9rem;
+
+}
+
+.main__hero__contact {
+    font-family: Barlow;
+    font-weight: 600;
+    font-size: 1.4rem;
+    line-height: 2.5rem;
+    text-align: center;
+    color: #A7AAAD;
+
+}
+
+@media screen and (max-width: 375px) {
+    .header__nav__list {
+        display: none;
+    }
+
+    .nav__button {
+        display: none;
+    }
+
+    .nav__img {
+        width: 123px;
+        height: 24px;
+    }
+
+    .nav__burger {
+        display: block;
+        margin-left: 17.9rem;
+    }
+
+    .header {
+        width: 100%;
+        max-width: 375px;
+        height: 80vh;
+    }
+
+    .header__tilte {
+        font-family: Fraunces 9pt Soft;
+        font-weight: 900;
+        font-size: 4rem;
+        line-height: 100%;
+        letter-spacing: 6.25px;
+        text-align: center;
+        margin-top: 8.8rem;
+        margin-bottom: 29.6rem;
+
+    }
+
+    .icon-arrow {
+        margin-left: 16rem;
+        margin-top: -240px;
+    }
+
+    #mobilenav {
+        display: block;
+        position: fixed;
+        top: 0;
+        left: -991px;
+        width: 100vw;
+        height: 100vh;
+        background-color: #FFFCF8;
+        background-image: url(../images/bg-pattern-mobile-nav.svg);
+        background-position: right bottom;
+        background-repeat: no-repeat;
+        background-size: 100% 50%;
+        z-index: 9;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 0 1.5rem;
+        text-align: center;
+        transition: 1s;
+    }
+
+    .mobile-nav ul li {
+        display: block;
+        margin-bottom: 3rem;
+        width: 100%;
+        box-sizing: border-box;
+    }
+
+    .mobile-nav ul li:nth-child(4) {
+        border: 1px solid hsl(0, 0%, 100%);
+        padding: .8rem 5rem;
+    }
+
+    .mobile-nav ul li a {
+        text-decoration: none;
+        text-transform: uppercase;
+        font-size: 1.2rem;
+        font-weight: 700;
+        letter-spacing: .1rem;
+        color: #808397;
+        font-family: 'Karla', sans-serif;
+    }
+
+    .main__cart__content {
+        width: 320px;
+        height: 309px;
+        margin-left: 1.9rem;
+        margin-right: 1.9rem;
+        margin-top: 6.4rem;
+        margin-bottom: 6.4rem;
+    }
+
+    .main__cart__content__title {
+        font-family: Fraunces 9pt Soft;
+        font-weight: 900;
+        font-size: 3.2rem;
+        line-height: 100%;
+        text-align: center;
+
+    }
+
+    .main__cart__content__description {
+        text-align: center;
+    }
+
+    .main__cart {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__cart1__img {
+        width: 359px;
+        height: 312px;
+
+    }
+
+    .main__cart__content__link {
+        margin-left: 11rem;
+    }
+
+    //min catr 2
+
+    .main__cart2_2 {
+        width: 320px;
+        height: 309px;
+        margin-left: 2.4rem;
+        margin-right: 2.4rem;
+        margin-top: 6.4rem;
+        margin-bottom: 6.4rem;
+    }
+
+    .main__cart2__content__title {
+        font-family: Fraunces 9pt Soft;
+        font-weight: 900;
+        font-size: 3.2rem;
+        line-height: 100%;
+        text-align: center;
+
+    }
+
+    .main__cart2__content__description {
+        text-align: center;
+    }
+
+    .main__cart2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main__cart2__img {
+        width: 359px;
+        height: 312px;
+
+    }
+
+    .main__cart2__content__link {
+        margin-left: 11rem;
+    }
+
+    //main cart 3
+
+    .main__cart3 {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .main__cart3_3 {
+        width: 359px;
+        height: 600px;
+    }
+
+    .main__cart3__content {
+        width: 327px;
+        height: 143px;
+
+        margin-left: 2.4rem;
+        margin-right: 2.4rem;
+        text-align: center;
+        margin-top: 38.8rem;
+    }
+
+    .main__cart3__title {
+        margin-bottom: 2.7rem;
+        font-family: Fraunces;
+        font-weight: 900;
+        font-size: 2.8rem;
+        line-height: 100%;
+        color: #24554A;
+
+    }
+
+    .main__cart3__description {
+        font-family: Barlow;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 27px;
+        color: #24554A;
+
+    }
+
+    //main cart 4
+    .main__cart4_4 {
+        width: 359px;
+        height: 600px;
+    }
+
+    .main__cart4__content {
+        width: 327px;
+        height: 143px;
+
+        margin-left: 2.4rem;
+        margin-right: 2.4rem;
+        text-align: center;
+        margin-top: 40.8rem;
+    }
+
+    .main__cart4__title {
+        margin-bottom: 2.7rem;
+        font-family: Fraunces;
+        font-weight: 900;
+        font-size: 2.8rem;
+        line-height: 100%;
+        color: #24554A;
+
+    }
+
+    .main__cart4__description {
+        font-family: Barlow;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 27px;
+        color: #24554A;
+
+    }
+
+    .main__hero {
+        margin-left: 2.4rem;
+        margin-right: 2.4rem;
+        margin-bottom: 8.6rem;
+    }
+
+    .main__hero__title {
+        font-family: Fraunces;
+        font-weight: 900;
+        font-size: 1.6rem;
+        line-height: 100%;
+        letter-spacing: 0.4rem;
+        margin-left: 2.4rem;
+
+    }
+
+    .main__hero__content {
+        display: flex;
+        flex-direction: column;
+        gap: 6.4rem;
+    }
+
+    .main__hero__cart {}
+
+    .main__hero__images {}
+
+    .main__hero__description {}
+
+    .main__hero__name {}
+
+    .main__hero__contact {}
+
+}

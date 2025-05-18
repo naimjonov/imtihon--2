@@ -1,12 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title> <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/style.min.css">
 </head>
+
 <body>
-    <h1>SCSS</h1>
-    
+    <div class="header">
+        <nav class="header__nav container">
+            <a href="#" class="nav__link">
+                <img src="./images/logo.svg" alt="" class="nav__img">
+            </a>
+            <div class="header__nav__list">
+                <a href="#">
+                    <ul class="nav__list">
+                        <li class="nav__link">About</li>
+                        <li class="nav__link">Services</li>
+                        <li class="nav__link">Projects</li>
+                    </ul>
+                </a>
+            </div>
+            <div class="nav__button btn button-1">CONTACT</div>
+            <img class="nav__burger" src="./images/icon-hamburger.svg" alt="">
+        </nav>
+        <h1 class="header__tilte">WE ARE CREATIVES</h1>
+        <img class="icon-arrow" src="./images/icon-arrow-down.svg" 
+        alt=""
+        width="30"
+        height="107">
+    </div>
+    <section id="mobilenav" class="mobile-nav">
+        <ul>
+            <li><a href="#">How we work</a></li>
+            <li><a href="#">Blog</a></li>
+            <li><a href="#">Account</a></li>
+            <li><a href="#">View plans</a></li>
+        </ul>
+    </section>
+    <!-- main cart 1 -->
+    <main class="main">
+        <div class="main__cart">
+            <div class="main__cart1">
+                <div class="main__cart__content">
+                    <h2 class="main__cart__content__title">Transform your brand</h2>
+                    <p class="main__cart__content__description">We are a full-service creative agency specializing in
+                        helping brands grow fast. Engage your clients through compelling visuals that do most of the
+                        marketing for you.</p>
+                    <a href="#" class="main__cart__content__link">LEARN MORE</a>
+                </div>
+            </div>
+            <img class="main__cart1__img" src="./images/desktop/image-transform.jpg" alt="">
+        </div>
+        <!-- main cart 2 -->
+        <div class="main__cart2">
+            <img src="./images/desktop/image-stand-out.jpg" alt="" class="main__cart2__img">
+            <div class="main__cart2_2">
+                <h2 class="main__cart2__content__title">Stand out to the right audience</h2>
+                <p class="main__cart2__content__description">Using a collaborative formula of designers, researchers,
+                    photographers, videographers, and copywriters, we’ll build and extend your brand in digital places.
+                </p>
+                <a href="#" class="main__cart2__content__link">LEARN MORE</a>
+            </div>
+        </div>
+        <!-- main cart 3 -->
+        <div class="main__cart3">
+            <div class="main__cart3_3">
+                <div class="main__cart3__content">
+                    <h3 class="main__cart3__title">Graphic Design</h3>
+                    <p class="main__cart3__description">Great design makes you memorable. We deliver artwork that
+                        underscores
+                        your brand message and captures potential clients’ attention.</p>
+                </div>
+            </div>
+            <!-- main__cart4 -->
+            <div class="main__cart4_4">
+                <div class="main__cart4__content">
+                    <h3 class="main__cart4__title">Photography</h3>
+                    <p class="main__cart4__description">Increase your credibility by getting the most stunning,
+                        high-quality
+                        photos that improve your business image.</p>
+                </div>
+            </div>
+        </div>
+        <!-- main hero -->
+        <div class="main__hero">
+            <h3 class="main__hero__title">CLIENT TESTIMONIALS</h3>
+            <div class="main__hero__content">
+                <div class="main__hero__cart">
+                    <img class="main__hero__images" src="./images/image-emily.jpg" alt="">
+                    <p class="main__hero__description">We put our trust in Sunnyside and they delivered, making sure our
+                        needs were met and deadlines were always hit.</p>
+                    <h4 class="main__hero__name">Emily R.</h4>
+                    <p class="main__hero__contact">Marketing Director</p>
+                </div>
+                <div class="main__hero__cart">
+                    <img class="main__hero__images" src="./images/image-thomas.jpg" alt="">
+                    <p class="main__hero__description">Sunnyside’s enthusiasm coupled with their keen interest in our
+                        brand’s success made it a satisfying and enjoyable experience.</p>
+                    <h4 class="main__hero__name">Thomas S.</h4>
+                    <p class="main__hero__contact">Chief Operating Officer</p>
+                </div>
+                <div class="main__hero__cart">
+                    <img class="main__hero__images" src="./images/image-jennie.jpg" alt="">
+                    <p class="main__hero__description">Incredible end result! Our sales increased over 400% when we
+                        worked
+                        with Sunnyside. Highly recommended!</p>
+                    <h4 class="main__hero__name">Jennie F.</h4>
+                    <p class="main__hero__contact">Business Owner</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <!-- FOOTER -->
+    <footer class="footer__gallery">
+        <div class="footer__galery__cart">
+            <div class="footer__galery__content1">
+                <img class="footer__images" src="./images/desktop/image-gallery-milkbottles.jpg" alt="">
+                <img class="footer__images" src="./images/desktop/image-gallery-orange.jpg" alt="">
+            </div>
+            <div class="footer__galery__content2">
+                <img class="footer__images" src="./images/desktop/image-gallery-cone.jpg" alt="">
+                <img class="footer__images" src="./images/desktop/image-gallery-sugarcubes.jpg" alt="">
+            </div>
+        </div>
+        <div class="footer">
+            <div class="site__footer">
+                <a href="" class="site__footer__img">
+                    <img src="./images/logo.svg" alt="" class="site__footer__logo1">
+                </a>
+                <div class="site__footer__content">
+                    <a href="#">
+                        <ul class="site__footer__list">
+                            <li class="site__footer__link">About</li>
+                            <li class="site__footer__link">Services</li>
+                            <li class="site__footer__link">Projects</li>
+                        </ul>
+                    </a>
+                </div>
+                <div class="site__footer__cart">
+                    <a href="#"><img class="site__footer__logo" src="./images/icon-facebook.svg" alt=""></a>
+                    <a href="#"><img class="site__footer__logo" src="./images/icon-instagram.svg" alt=""></a>
+                    <a href="#"><img class="site__footer__logo" src="./images/icon-twitter.svg" alt=""></a>
+                    <a href="#"><img class="site__footer__logo" src="./images/icon-pinterest.svg" alt=""></a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./js/app.js"></script>
 </body>
+
 </html>
